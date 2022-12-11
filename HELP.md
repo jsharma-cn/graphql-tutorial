@@ -19,3 +19,6 @@ The following guides illustrate how to use some features concretely:
 
 * [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
 
+Docker run command
+docker container run -e SERVER_PORT=8090 -p 8090:8090 graphql
+docker run -d -e SERVER_PORT=8090 -p 8090:8090 graphql --name graphql
